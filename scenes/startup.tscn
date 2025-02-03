@@ -1,3 +1,9 @@
 [gd_scene format=3 uid="uid://dqtey5ilnhyn8"]
 
 [node name="startup" type="Node2D"]
+
+[node name="Node3D" type="Node3D" parent="."]
+transform = Transform3D(33.4266, 0, -30.7431, 0, 10.3217, 0, 28.9428, 0, 35.5059, 0, 0, -0.0114853)
+
+[node name="CollisionPolygon3D" type="CollisionPolygon3D" parent="Node3D"]
+polygon = PackedVector2Array(0.106427, 0.00314185, 0.0769916, -0.0311467, 0.150068, -0.337786, 0.372643, 0.178425, 0.192941, 0.42416, 0.196333, -0.133268, 0.148131, -0.350045)
