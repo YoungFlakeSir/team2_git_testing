@@ -1,3 +1,8 @@
-[gd_scene format=3 uid="uid://o21o7mh0eemr"]
+[gd_scene load_steps=2 format=3 uid="uid://o21o7mh0eemr"]
+
+[ext_resource type="Script" path="res://scripts/joshyscene.gd" id="1_7ghg1"]
 
 [node name="joshyscene" type="Node2D"]
+script = ExtResource("1_7ghg1")
+
+[node name="average joe" type="Node2D" parent="."]
