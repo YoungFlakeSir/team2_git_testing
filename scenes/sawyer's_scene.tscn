@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqnin1jatd38b"]
+
+[ext_resource type="Script" path="res://scenes/sawyer's_scene.gd" id="1_anner"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_anner")
